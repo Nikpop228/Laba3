@@ -17,8 +17,8 @@ int Rectangle::get_perimeter()
 
 void Rectangle::print()
 {
-	Square::print();
-	std::cout /*<< "Perimetr: " << this->get_perimeter() << std::endl 
-			  << "Length of side a: " << side_a << std::endl */
+	//Square::print();
+	std::cout << "Perimetr: " << this->get_perimeter() << std::endl 
+			  << "Length of side a: " << side_a << std::endl 
 			  << "Length of side b: " << side_b << std::endl;
 }

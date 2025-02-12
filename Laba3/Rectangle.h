@@ -11,7 +11,7 @@ public:
 
 	Rectangle(int side_a, int side_b);
 
-	int get_perimeter();
+	int get_perimeter() override;
 
 	void print();
 };
